@@ -1,0 +1,1 @@
+dofile( "mods/da_mod/data/scripts/items/heart.lua" )

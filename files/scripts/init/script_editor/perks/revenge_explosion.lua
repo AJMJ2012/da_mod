@@ -1,0 +1,4 @@
+dofile("mods/da_mod/lib/script_utilities.lua")
+local file = "data/scripts/perks/revenge_explosion.lua"
+-- don't revenge explosion if there is no entity causing damage
+script.append([[local ent_x, ent_y = EntityGetTransform(entity_who_caused) if (ent_x == nil or ent_y == nil) then return end]], [[if( damage < 0 ) then return end]], file)

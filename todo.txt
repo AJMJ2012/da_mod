@@ -1,0 +1,73 @@
+TODO:
+- Blood modifier perks no longer increase the amount of blood spewed
+- Dissolve Powders only activates when crouching
+- Gold is Forever turns gold chunks into powder in unloaded chunks
+- Dynamically increase particles
+- Worms and Lukkis don't eat Holy Mountain brick, unless you want them to ;)
+- Remove random aggression and friendliness from enemies (Is it even possible?)
+- Damage flashes are based on the percentage of damage taken rather than the amount taken (Is it even possible?)
+- Return spell adds a beam between you and it
+- Slice damage is based on speed
+- Add Terraria style Water Walking perk
+- Teleport particles point towards the destination (Is it even possible?)
+- Edit lang file for various things (Having trouble with this)
+- Add a shop reroll based on their level
+- Show spell descrtiptions when standing at just like perk descrtiptions.
+- iframes, but only at 1 or 2 frames (Configurable)
+- Rewrite Extra Life so that I can change the icon when the life has been used up. Perhaps even set a respawn point to the exit chute of the holy mountain? Like the debug teleport positions.
+
+Maybe:
+- Turn Oil Blood into a Mega Perk:
+	* Rename to Cyborg
+	* Bleed Oil
+	* Decrease Speed
+	* Change species to robot with all the benefits and drawbacks
+- Everything attacks each other when you die (Just for fun)
+- Spell damage modifiers affect all types of damage, not just regular damage
+- Add a way to appease the gods without relying on a perk. Perhaps a hefty donation? Would have to basically apply the perk's base effect when you're at previously visited temples. Or could rebuild their chunks. Very angry gods may not be appeased.
+- Plasma Beams attach to the end of the wand if fired from it
+- Electricity has reduced ambient shocks, but also applies electrical damage to your projectiles and shocks melee attackers
+- Freeze Field also applies ice damage to your projectiles, freezes melee attackers, and gives you frost immunity, but no longer extinguishes fires (If that's even possible)
+- Change Gas Fire to Fire Aura which applies fire damage to your projectiles, immolates melee attackers, burns everything burnable around you, and gives fire immunity
+- Enemies are less accurate
+- Wood burns slower and colder
+- Coal burns slower and colder
+- Oil burns faster and hotter
+- Accelerative homing increases speed based on distance rather than time
+- Reduce all blood but make it all true liquid
+
+Working on:
+- Add floating text for healing  (Currently only from blood money)
+- Add floating text for gold     (Currently only for gold nuggets)
+
+Applied:
+- Removed Tinker With Wands Everywhere from perk pool (Configurable)
+- Projectile Repulsion and Slow Field are now centered to the player
+- Plague Rats last last forever
+- Pollen doesn't hurt caster
+- Homunculus no longer drowns or catches fire
+- Health upgrades heal you for the amount they added (Configurable)
+- Aiming Arc rotates towards cursor rather than aiming direction
+- Reworked Teleportitis and Teleportitis Dodge
+- Teleportitis, Revenge Tentacle, Revenge Explosion will not activate when taking stain damage
+- Lukki Minion is more aggressive
+- Exploding Corpses explode instantly and no longer gives explosion immunity but instead +25% explosion resistance
+- Projectile Repulsion and Slow Field no longer affects projectiles that don't collide with tiles and fields
+- Evil hearts show a purple particle effect rather than red
+- Evil hearts now play their shrinking animation
+- Player base movement and flight speed are increased by 25%
+- Player base flight time decreased by 25%
+- Choice of 3 perks at the start (Configurable)
+- Added a modifier that makes homing spells and modifiers use line of sight.
+- Fixed syntax error for Explosive Detonator
+- Projectile Energy Shield is larger
+- Contact Damage and Damage Field uses red particle effects
+- Projectile Eater Sector uses green particle effects
+- Teleportitis Dodge uses blue particle effects
+- Gold Chunks close together combine into bigger ones (Configurable)
+- Increase cast delay for Concentrated Spells
+- Bubble Spark Bounce no longer hurts yourself
+- Increase Vamprisim healing rate
+- Disable automatic inventory opening when leaving Holy Mountain. It's annoying.
+- Added 5 gold drops
+- Removed AudioComponent from chainsaw

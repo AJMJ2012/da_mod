@@ -1,0 +1,43 @@
+<Materials>
+  <Reaction probability="13"
+	input_cell1="water"  input_cell2="radioactive_liquid"
+	output_cell1="water" output_cell2="water_swamp"
+	>
+  </Reaction>
+
+  <Reaction probability="15"
+	input_cell1="water_static"  input_cell2="radioactive_liquid"
+	output_cell1="water_static" output_cell2="water_swamp"
+	>
+  </Reaction>
+
+  <Reaction probability="15"
+	input_cell1="water_ice"  input_cell2="radioactive_liquid"
+	output_cell1="water_ice" output_cell2="water_swamp"
+	>
+  </Reaction>
+
+  <CellData
+	name="propane_gas"
+	ui_name="$mat_acid_gas"
+  	tags="[gas],[burnable]"
+	burnable="1"
+	density="3"
+	cell_type="gas"
+	lifetime="450"
+	generates_flames="20"
+	generates_smoke="0"
+	liquid_gravity="0.5"
+	liquid_sand="0"
+	on_fire="0"
+	requires_oxygen="1"
+	temperature_of_fire="100"
+	autoignition_temperature="1"
+	wang_color="7f848485"
+	>
+	<Graphics
+		color="7f848485"
+		>
+    </Graphics>
+  </CellData>
+</Materials>

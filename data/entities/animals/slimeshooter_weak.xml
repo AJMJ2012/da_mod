@@ -1,0 +1,38 @@
+<Entity name="$animal_slimeshooter">
+  
+	<Base file="data/entities/animals/slimeshooter.xml" >
+		<AnimalAIComponent
+			attack_ranged_entity_file="data/entities/projectiles/radioactive_blob.xml"
+			>
+		</AnimalAIComponent>
+		
+		<DamageModelComponent
+			blood_material="radioactive_liquid_fading"
+			blood_spray_material="radioactive_liquid_fading"
+			ragdoll_filenames_file="data/ragdolls/slimeshooter_weak/filenames.txt"
+			hp="0.3"
+			>
+		</DamageModelComponent>
+		
+		<SpriteComponent 
+			image_file="data/enemies_gfx/slimeshooter_weak.xml"
+			>
+		</SpriteComponent> 
+	
+		<MaterialInventoryComponent 
+			_enabled="1" 
+			drop_as_item="0" 
+			leak_on_damage_percent="0.999" 
+			>
+			<count_per_material_type>
+			<Material material="radioactive_liquid_fading" count="800"  />
+			</count_per_material_type>
+		</MaterialInventoryComponent>
+	</Base>
+	
+	<!-- <Entity>  <Base file="data/entities/verlet_chains/slime_tentacle/slime_tentacle_bright_alt_02.xml"> <InheritTransformComponent><Transform position.x="0"  position.y="-6" ></Transform></InheritTransformComponent> </Base>  </Entity> -->
+	<Entity>  <Base file="data/entities/verlet_chains/slime_tentacle/slime_tentacle_bright_alt_01.xml"> <InheritTransformComponent><Transform position.x="-3" position.y="-6" ></Transform></InheritTransformComponent> </Base>  </Entity>
+	<Entity>  <Base file="data/entities/verlet_chains/slime_tentacle/slime_tentacle_thin_alt_01.xml"> <InheritTransformComponent><Transform position.x="3"  position.y="-6" ></Transform></InheritTransformComponent> </Base>  </Entity>
+
+</Entity>
+
